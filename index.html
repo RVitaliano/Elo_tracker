@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELO TRACKER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="#">
+        <div class="logo-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M3 13V7M6.5 13V4M10 13V9M13 13V6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">ELO TRACKER</span>
+      </a>
+      <div class="header-progress-wrap">
+        <div class="header-progress-top">
+          <span class="header-progress-label">Metas Atingidas</span>
+          <span class="header-progress-count" id="prog-text">0 / 17</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="prog-bar" style="width:0%"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== FILTER ===== -->
+  <nav class="filter-wrap">
+    <div class="filter-pills">
+      <button class="pill active" data-f="all">Todos</button>
+      <button class="pill" data-f="moba">MOBAs</button>
+      <button class="pill" data-f="fps">FPS Competitivo</button>
+      <button class="pill" data-f="hero-shooter">Hero Shooters</button>
+      <button class="pill" data-f="br">Battle Royale</button>
+      <button class="pill" data-f="esporte">Esporte</button>
+      <button class="pill" data-f="luta">Jogos de Luta</button>
+      <button class="pill" data-f="corrida">Corrida</button>
+      <button class="pill" data-f="other">Outros</button>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN ===== -->
+  <main class="main" id="main"></main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
