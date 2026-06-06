@@ -49,7 +49,7 @@ A interface exibe o progresso global de metas atingidas, permite filtrar jogos p
 
 ```bash
 # Clone o repositório
-git clone <url-do-repositorio>
+git clone [<url-do-repositorio>](https://github.com/RVitaliano/Elo_tracker)
 cd "Metas Jogos"
 
 # Abra o arquivo no navegador
