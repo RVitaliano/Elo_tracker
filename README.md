@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-**ELO TRACKER** é uma Single Page Application (SPA) que permite registrar seu rank atual e definir metas de elo em 21 títulos competitivos. A aplicação funciona 100% no lado do cliente: nenhum dado é enviado para servidores externos.
+**ELO TRACKER** é uma Single Page Application (SPA) que permite registrar seu rank atual e definir metas de elo em 22 títulos competitivos. A aplicação funciona 100% no lado do cliente: nenhum dado é enviado para servidores externos.
 
 A interface exibe o progresso global de metas atingidas, permite filtrar jogos por categoria e oferece um painel expandível com a distribuição estatística de jogadores por rank em cada título.
 
