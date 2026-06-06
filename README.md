@@ -12,7 +12,7 @@ A interface exibe o progresso global de metas atingidas, permite filtrar jogos p
 
 ---
 
-## Tala
+## Tela
 <img width="1874" height="948" alt="image" src="https://github.com/user-attachments/assets/c3d4ae19-6912-48a0-8f96-122409cfb906" />
 
 ---
